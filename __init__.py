@@ -16,8 +16,9 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-from mycroft import MycroftSkill, intent_file_handler
-from mycroft.util.format import pronounce_number
+from ovos_workshop.skill import OVOSSkill
+from mycroft import intent_file_handler
+from ovos-lingua-franca import pronounce_number
 import requests
 import json
 
